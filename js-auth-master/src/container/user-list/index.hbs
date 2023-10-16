@@ -1,0 +1,35 @@
+{{!
+Це код container файлу для index сторінки,
+в якому міститься код, котрий буде віддаватися по шляху (PATH) - "/"
+}}
+
+<div class="page page--top">
+	<header>
+		{{> back-button}}
+	</header>
+
+	<h1 class="page__title">Список користувачів</h1>
+
+	<hr class="page__divider">
+
+	<div class="page__section" id="user-list">
+		{{!-- <span class="alert alert--success">Внимание, ошибка!</span>
+
+		<a href="#" class="user user--click">
+			<span class="user__title">test@mail.com</span>
+			<span class="user__sub">Адміністратор</span>
+		</a>
+
+		<a href="#" class="user user--click">
+			<span class="user__title">test@mail.com</span>
+			<span class="user__sub">Адміністратор</span>
+		</a> --}}
+
+
+	</div>
+</div>
+
+{{!
+    Цей код містить лише те, що буде виводитись в <body>
+    Адже наш layout/default.hbs має вже структуру HTML
+}}

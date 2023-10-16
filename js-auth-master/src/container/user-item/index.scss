@@ -1,0 +1,21 @@
+@use '../../style' as s;
+
+@use '../../style/form.scss' as form;
+
+.data {
+  display: flex;
+  flex-direction: column;
+  gap: s.space(2);
+
+  &__title {
+    font-size: 16px;
+    height: 16px;
+    color: s.color(dark);
+  }
+
+  &__value {
+    font-size: 14px;
+    height: 14px;
+    color: s.color(gray);
+  }
+}

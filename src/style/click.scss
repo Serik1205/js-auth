@@ -1,7 +1,0 @@
-@mixin click{
-	cursor: pointer;
-	transition: opacity 0.7s;
-	&:hover{
-		opacity: 0.7;
-	}
-}
